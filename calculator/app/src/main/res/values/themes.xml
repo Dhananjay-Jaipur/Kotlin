@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="colorOnPrimary">@color/gray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_gary</item>
+        <item name="colorSecondaryVariant">@color/purple_200</item>
+        <item name="colorOnSecondary">@color/gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button1" >
+
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/shape1b</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button2" >
+
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">38dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape2b</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button3" >
+
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/shape3b</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
